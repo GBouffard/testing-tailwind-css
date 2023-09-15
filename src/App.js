@@ -6,7 +6,7 @@ const App = () => <>
 
   <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
   <div class="shrink-0">
-    <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo" />
+    <img class="h-12 w-12" src={`${baseUrl}/images/fake-chat.png`} alt="Fake chat PNG" />
   </div>
   <div>
     <div class="text-xl font-medium text-black">ChitChat</div>
@@ -25,7 +25,7 @@ const App = () => <>
         Funny dog
       </p>
     </div>
-    <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
+    <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message with hover state</button>
   </div>
 </div>
 
@@ -38,7 +38,7 @@ const App = () => <>
     <svg class="h-6 w-6 stroke-sky-500 group-hover:stroke-white" fill="none" viewBox="0 0 24 24"></svg>
     <h3 class="text-slate-900 group-hover:text-white text-sm font-semibold">New project</h3>
   </div>
-  <p class="text-slate-500 group-hover:text-white text-sm">Create a new project from a variety of starting templates.</p>
+  <p class="text-slate-500 group-hover:text-white text-sm">This has a hover state</p>
 </a>
 
 <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 bg-white dark:bg-slate-800">
