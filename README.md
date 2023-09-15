@@ -19,3 +19,7 @@ npm start
 [Tailwind CSS Cheat Sheet](https://tailwindcomponents.com/cheatsheet/)
 
 [API](https://tailwindcss.com/docs/aspect-ratio)
+
+## Github Pages Link:
+
+[Guillaume's playing with Tailwind CSS](https://gbouffard.github.io/testing-tailwind-css/)
