@@ -1,4 +1,5 @@
 import "./App.css";
+const baseUrl = process.env.PUBLIC_URL;
 
 const App = () => <>
   <h1 className="text-3xl font-bold underline">Testing Tailwind css</h1>
@@ -14,7 +15,7 @@ const App = () => <>
 </div>
 
 <div class="py-8 px-8 my-8 max-w-sm mx-auto bg-orange-50 rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-  <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="/images/goofy.webp" alt="Goofy Face" />
+  <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src={`${baseUrl}/images/goofy.webp`} alt="Goofy Face" />
   <div class="text-center space-y-2 sm:text-left">
     <div class="space-y-0.5">
       <p class="text-lg text-black font-semibold">
