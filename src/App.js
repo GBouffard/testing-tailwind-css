@@ -29,24 +29,17 @@ const App = () => <>
   </div>
 </div>
 
-<button class="bg-sky-500 hover:bg-sky-700 ...">
-  Save changes
-</button>
-
-<a href="/" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-sky-500 hover:ring-sky-500">
+<a href="/" class="bg-gradient-to-r from-pink-200 via-green-200 to-transparent group block max-w-xs mx-auto rounded-lg p-6 ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:ring-sky-500 hover:border-4 hover:border-pink-700 hover:border-double hover:rounded-2xl">
   <div class="flex items-center space-x-3">
+    <div>Ok let's try a gradient too</div>
     <svg class="h-6 w-6 stroke-sky-500 group-hover:stroke-white" fill="none" viewBox="0 0 24 24"></svg>
-    <h3 class="text-slate-900 group-hover:text-white text-sm font-semibold">New project</h3>
+    <h3 class="text-slate-900 group-hover:text-white text-sm font-semibold line-through capitalize border-t-8 border-purple-700">capitalised line through with border top and color test</h3>
   </div>
-  <p class="text-slate-500 group-hover:text-white text-sm">This has a hover state</p>
+  <p class="text-slate-500 group-hover:text-white text-sm rotate-12 skew-x-6">This box has a hover state - rotated text test</p>
 </a>
 
 <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 bg-white dark:bg-slate-800">
-  Responsive
-</div>
-
-<div class="backdrop-grayscale-0 top-[117px] lg:top-[344px]">
-  Testing custom
+  some grid responsive stuff Responsive
 </div>
 </>;
 

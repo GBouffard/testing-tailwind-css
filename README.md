@@ -16,4 +16,6 @@ npm install
 npm start
 ```
 
+[Tailwind CSS Cheat Sheet](https://tailwindcomponents.com/cheatsheet/)
+
 [API](https://tailwindcss.com/docs/aspect-ratio)
